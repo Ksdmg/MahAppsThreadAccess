@@ -1,0 +1,19 @@
+﻿<mah:MetroWindow  xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+                  x:Class="MahAppsThreadAccess.MainWindow"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  xmlns:local="clr-namespace:MahAppsThreadAccess"
+                  mc:Ignorable="d"
+                  Title="MainWindow"
+                  Height="450"
+                  Width="800">
+    <StackPanel Margin="10">
+        <Button Content="Open Child wihout theme manager"
+                Click="Button_Click" />
+        <Button Content="Open Child with theme manager"
+                Click="Button_Click" />
+        <TextBox Text="Thats Awesome!" />
+    </StackPanel>
+</mah:MetroWindow>
