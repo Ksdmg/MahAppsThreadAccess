@@ -10,9 +10,7 @@
                   Height="450"
                   Width="800">
     <StackPanel Margin="10">
-        <Button Content="Open Child wihout theme manager"
-                Click="Button_Click" />
-        <Button Content="Open Child with theme manager"
+        <Button Content="Open Child"
                 Click="Button_Click" />
         <TextBox Text="Thats Awesome!" />
     </StackPanel>
